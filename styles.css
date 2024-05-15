@@ -1,0 +1,48 @@
+/* Загальні стилі */
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('bcgrnd.jpg'); /* Шлях до вашого зображення фону */
+    background-repeat: no-repeat; /* Заборона повторення зображення */
+    background-size: cover; /* Розтягує зображення на весь екран */
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Стилізація меню та кнопок */
+  
+  header {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  nav {
+    text-align: center;
+  }
+  
+  nav a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  
